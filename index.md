@@ -6,7 +6,7 @@ This will be your Module Lab Guide that will walk your through the content for t
 
 DTC Workshop consists of Four (4) Modules that include the following:
 
-#### Module 0: Prerequisites
+#### [Module 0: Prerequisites](/module0.md)
 
 #### Module 1: The Modern API - Design
 
