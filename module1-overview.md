@@ -22,4 +22,4 @@ The 3 labs in this unit are:
 *   [Lab 2: Design the Shopify API](http://workshop.tools.mulesoft.com/modules/module1_lab2)
 *   [Lab 3: Publish the Shopify API to Exchange](http://workshop.tools.mulesoft.com/modules/module1_lab3)
 
-### [\--> Proceed with Lab 1](/module1-lab1)
+### [\--> Proceed with Lab 1](/module1-lab1.md)
