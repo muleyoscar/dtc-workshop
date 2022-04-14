@@ -2,34 +2,18 @@
 
 This will be your Module Lab Guide that will walk your through the content for today's workshop.
 
-### Markdown
+### Workshop Components
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+DTC Workshop consists of Four (4) Modules that include the following:
 
-```markdown
-Syntax highlighted code block
+#### Module 0: Prerequisites
 
-# Header 1
-## Header 2
-### Header 3
+#### Module 1: The Modern API - Design
 
-- Bulleted
-- List
+**Module 2 Ubiquitous Connectivity (Shopify)**
 
-1. Numbered
-2. List
+**Module 3: Apply Policy to Shopify AP**
 
-**Bold** and _Italic_ and `Code` text
+Each Module will consist of several Labs that can be done independently of the other Lab. 
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/muleyoscar/dtc-workshop/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+_What happens if you do not finish in the time allotted for the workshop?_ Don't worry, the workshop is meant to be self-paced and all materials will be available for several days after the workshop.
