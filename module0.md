@@ -17,4 +17,4 @@ The general format for the workshop docs is to provide you instructions, followe
 3.  Click Save
 4.  …​
 
-### [\--> Proceed to Module 1: The Modern API - Design](/module1-overview.md)
+### [\--> Proceed to Module 1: The Modern API - Design](module1-overview.md)
