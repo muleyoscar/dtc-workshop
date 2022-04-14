@@ -53,13 +53,12 @@ As you can see from the screen above, there are organizational search criteria o
 There are two more items behind the last organization **My applications** and **Public Portal**. We will describe them but they are covered in Module 3 and Lab 4.
 
 *   **My applications**: These are the clients registered in the organization that are consuming the APIs that are deployed in the organization.
-*   **Public Portal**: You can define a public portal to let any user to consume any public org API that the organization may publish.  
-     
+*   **Public Portal**: You can define a public portal to let any user to consume any public org API that the organization may publish.  
 
 ![](https://user-images.githubusercontent.com/84099162/163310629-6055bcd2-74d1-4715-8358-76ae14c392f9.png)
 
-To search for an API, use the search bar at the top of the Anypoint Exchange portal:  
-  
+To search for an API, use the search bar at the top of the Anypoint Exchange portal:
+
 **Anypoint Exchange** supports keyword searching to find the API you are looking for. However, **Anypoint Exchange** can be used as a discovery tool for more than just API’s. **Anypoint Exchange** is the enterprise repository for the following types of reusable software assets:
 
 4.  Click on the **All types** drop down next to the search field to view the different search types:
@@ -75,8 +74,7 @@ To search for an API, use the search bar at the top of the Anypoint Exchange por
 *   **SOAP APIs** - API descriptions in WSDL format that make the consumption of a SOAP API’s faster and easier.
 *   **HTTP APIs** - A placeholder for an endpoint for use by private Exchange users who want to manage the endpoint with API Manager
 *   **API Spec Fragments** - Shared fragments of RAML files that can be used to assemble new API’s with common traits.
-*   **Custom** - A general category for sharing resources such as links, blogs, articles, videos and more.  
-     
+*   **Custom** - A general category for sharing resources such as links, blogs, articles, videos and more.  
 
 5.  Click on the **All types** drop down again to collapse it.
 
@@ -86,13 +84,39 @@ To search for an API, use the search bar at the top of the Anypoint Exchange por
 
 8.  The list of Exchange assets should now be filtered to look something like this:
 
-![](https://user-images.githubusercontent.com/84099162/163311652-d097e2c8-84f4-483d-9020-d56c78d12c93.png)  
-  
+![](https://user-images.githubusercontent.com/84099162/163311652-d097e2c8-84f4-483d-9020-d56c78d12c93.png)
+
 9.  Click on the tile named **Shopify Experience API**.
 
-  
 ![](https://user-images.githubusercontent.com/84099162/163311802-60b7bbaa-e09d-4757-8b46-aed25e3af535.png)
 
 You should now see the page dedicated to the Shopify API definition:
 
 ![](https://user-images.githubusercontent.com/84099162/163311947-02c8f59b-b654-4418-af39-b37736c940c3.png)
+
+Exchange provides several new features to support and encourage discovery and collaboration.
+
+First note the content in the portal to help you learn how to use the API. We will learn how to create this content latter. But for now, let’s do a quick survey of the key features of the Exchange portal:
+
+Lets breakdown the components of the **Shopify API Portal** display...
+
+![](https://user-images.githubusercontent.com/84099162/163312357-4ceb510c-600a-4bde-a4a0-1268806e15f1.png)
+
+**A.  Information Panel** - This provides general information about the API.
+
+**B.  Options Panel** - The options panel has three options.
+
+*   **Edit** (pencil icon): This option allows to edit the API portal.
+*   **Share**: This option allows you to share the API with users, users that have a role, or publish to the Public portal.
+*   **Download**: This option is to download the RAML Spec or Mule Plugin to use it as a Connector.
+*   **View Code**: Opens Design Center.
+*   **Add Version**: Lets you create a new version
+
+**C.  Versions** It shows the different versions of the API.  
+Much of this information is automatically generated during the design and development of the API.
+
+*   **Change Lifecycle State**: Lets you change the state of the version:  
+      
+    ![](https://lh3.googleusercontent.com/z8JVnqTc3WdYFpK8nfAY5wMK29ZgWlFP3ZqkXt4Ox247OBwaKpzBv5SqzQAM5eRMrsnePIa2s-G67-Yu90PDR46bzZPt6lKLQ6YiYLe_ADbwohjhAM-Cef40azMXJNYeiFQwdARhuC9S)
+
+*
