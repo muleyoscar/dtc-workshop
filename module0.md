@@ -10,9 +10,6 @@ Functions or actions to be performed by you (for example, menu selections, butto
 
 Text to be entered will be in a _italic_ font.
 
-  
- 
-
 The general format for the workshop docs is to provide you instructions, followed by a screen capture of what you are doing.
 
 1.  Click on some button
@@ -20,4 +17,4 @@ The general format for the workshop docs is to provide you instructions, followe
 3.  Click Save
 4.  …​
 
-![](https://user-images.githubusercontent.com/84099162/163305079-1aa3c36e-6b1c-4196-b008-7bddf4249628.png)
+### [\--> Proceed to Module 1: The Modern API - Design](/module1-overview.md)
