@@ -55,4 +55,4 @@ There are two more items behind the last organization **My applications** and 
 *   **My applications**: These are the clients registered in the organization that are consuming the APIs that are deployed in the organization.
 *   **Public Portal**: You can define a public portal to let any user to consume any public org API that the organization may publish.
 
-![](https://user-images.githubusercontent.com/84099162/163308640-a9bc0142-148b-490e-8bb6-8990127ef3ca.png)
+![](https://user-images.githubusercontent.com/84099162/163310629-6055bcd2-74d1-4715-8358-76ae14c392f9.png)
