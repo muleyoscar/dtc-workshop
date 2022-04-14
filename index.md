@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to the API-led Connectivity for Direct-to-Consumer (DTC) Workshop!
 
-You can use the [editor on GitHub](https://github.com/muleyoscar/dtc-workshop/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This will be your Module Lab Guide that will walk your through the content for today's workshop.
 
 ### Markdown
 
