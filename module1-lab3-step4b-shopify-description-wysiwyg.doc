@@ -1,0 +1,9 @@
+Welcome to the NTO developer portal. This API represents the Direct to Consumer Shopify Shopping Cart Application - that includes:
+
+
+Order
+Product
+inventory tracking
+
+
+The Shopify API is an Experience API that is a part of NTO's API led Architecture . This same architecture allows NTO to leverage a headless commerce platform that is highly composable and future proof!
