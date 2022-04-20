@@ -8,7 +8,6 @@ Anypoint Platform provides first-class tooling to support the needs of the API D
 
 For the purposes of this workshop we will design new API’s using REST. RESTful API’s are very popular right now and support a variety of patterns that help solve many reliability, scalability and integration challenges you might face. We will use an API-first design approach using the RESTful API Modeling Language (RAML) standard. We will follow REST best practices to promote adoption to your consumers. This lab will also introduce the main concepts of resource oriented design and will show how RAML is used to bring APIs to life. For more information on RAML, please see: [www.raml.org](http://www.raml.org/).
 
-  
 ![](https://user-images.githubusercontent.com/84099162/164139877-1fbde779-1dca-4354-b6c3-8d3ee5279d3e.png)
 
 In this lab, we will start designing a new REST API and test it before implementing it. We will use Anypoint Platform’s **Design Center** to design the API. 
@@ -26,26 +25,25 @@ Designing REST interfaces is a bit of a paradigm change compared to SOAP service
 
 2\. [Use standard response codes](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html) for success and error; use existing patterns e.g. not every successful call should return a 200 OK - often a 201 Created is appropriate after a POST /products or a 202 Accepted when a long running task was started by the server
 
-3. [Use standard header parameters](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html)
+1.  [Use standard header parameters](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html)
 
 4\. Design and craft resources in **your** business language - here is where [RAML](http://raml.org/) comes into play
 
-5\. **Interlink** as many of your resources as you can; e.g. when you return a collection of products, have every product in the result carry its own link so the client can easily access it  
-  
+5\. **Interlink** as many of your resources as you can; e.g. when you return a collection of products, have every product in the result carry its own link so the client can easily access it
+
 **Collection Resources**
 
 Typically resources are designed as either collection or instance resources. Collection resources hold a collection of resources that can be queried, ordered, extended and most importantly linked.
 
 Let’s take a typical example of a product resource. Most likely there are several of them and you want to be able to create new products also.
 
-By designing a **/order** resource a list of products is available. Typically the methods  
-  
+By designing a **/order** resource a list of products is available. Typically the methods
+
 ![](https://lh5.googleusercontent.com/kww254HrO0K8a4nXoIVRysFZTp-Qk0QIMnE4iDU1kR_QuctNAvDw_p6wQMNMf_vcSTw9OsuCJKvak24RO4rlLIzHBdVCvR9VwihSbP1VbvZbKjeRVFN06M4XEl3YHPgHNkVc_YDMdzyi)
 
 *   GET (get the list)
 *   PATCH (can both create new order records or modify existing order record to specified target
-*   POST (will create order(s) at its intended target)  
-     
+*   POST (will create order(s) at its intended target)  
 
 **Instance Resources**
 
@@ -89,17 +87,94 @@ You have a new requirement for a new Shopify application. The NTO business team 
 In this step, you will create an API and design it using the Anypoint Design Center.
 
 You can access Anypoint Design Center from the home page of Anypoint Platform:  
-![](https://lh3.googleusercontent.com/hBN4M9KRxi6THRda--9L2B6_YIziyLSbU-gEhIblCYf1TNlWdElsYZO7xbzU9WlL3XWCJKxeopCTicIt9pQrzdfFWFsZLkyxFsiybWFPN2xk7X4hLMdOhWjl85hlSs_EqhgJyOyU7Jnt)  
- 
+![](https://lh3.googleusercontent.com/hBN4M9KRxi6THRda--9L2B6_YIziyLSbU-gEhIblCYf1TNlWdElsYZO7xbzU9WlL3XWCJKxeopCTicIt9pQrzdfFWFsZLkyxFsiybWFPN2xk7X4hLMdOhWjl85hlSs_EqhgJyOyU7Jnt)  
 
 Alternatively you can use the "hamburger menu" from any page within Anypoint Platform portal to navigate to Design Center:
 
 ![](https://lh6.googleusercontent.com/JOSRHDlN3Yx80bloxbvgEf2UMfnQxQ7UH_rPVpGrpOUBC-KDZg8it-rkD2vSGMoa5VkbXP259qmYhuhXwLrnh6XeptFSMc0ImmqcCiEYWgjEf9JGpLndmqT5G1csL9XuznzGDQdowwhM)
 
-2. **Anypoint Design Center** is used to design your API’s. When you arrive at the Design Center landing page you will see a list of API’s that have already been designed by your organization.
+1.  **Anypoint Design Center** is used to design your API’s. When you arrive at the Design Center landing page you will see a list of API’s that have already been designed by your organization.
 
-![](https://lh4.googleusercontent.com/JdKf3HozfIQwfBI8NEwVhZjGWKXRwAa4oehEzlHZABfvrRdpdb0Ae2Vp23we84ukSMjzGRD3Ywz8_bXAdTLokt5f_yC3RZOzl-aBx3-iJDr_qN3ccYaxpjuosb5BlgBtp5gEuZQGkUNn)  
-  
+![](https://lh4.googleusercontent.com/JdKf3HozfIQwfBI8NEwVhZjGWKXRwAa4oehEzlHZABfvrRdpdb0Ae2Vp23we84ukSMjzGRD3Ywz8_bXAdTLokt5f_yC3RZOzl-aBx3-iJDr_qN3ccYaxpjuosb5BlgBtp5gEuZQGkUNn)
+
 **Anypoint Design Center** is used to design your API’s. When you arrive at the Design Center landing page you will see a list of API’s that have already been designed by your organization.
 
 ![](https://lh4.googleusercontent.com/t1OkJ7x4PopDMDXHaxL3ZcM7bk5nE0aEWzEul0pDFcdU2ebOt26j3WR6_Dtck3Aa_L7rlGUcFx0XmbT6BPuSfEFgY6tXQnB2wv7VteF96DStWjSuaDMMembe7UkdG43NZHygnLGHnLBF)
+
+3\. To create a new API, Click on the **Create new** button  
+  
+![](https://user-images.githubusercontent.com/84099162/164259795-3893ca3f-f64e-4947-a96a-700d4b79cd12.png)
+
+4\. Select “New API Spec”:  
+![](https://user-images.githubusercontent.com/84099162/164260092-e8df6fb6-e429-4073-8c9e-053d9835e238.png)  
+  
+5.  Set the following values in the **Add API** form:  
+ 
+
+A. API name: **\<your name or initials> - Shopify Experience API**.  
+![](https://lh4.googleusercontent.com/jAT_h7F0YHkPnhA7BEPu1FyZrcg_T89uylUUr6RV5wEc40_ALKt5blNZobbjEB3c6oVg1CrtsjPFAWkn_t2rgdxz8gqhKwoBvxVq4ACrLMf7yGzfDLbTqH-j00Ex_9_xpIujGfJLq9WQ)
+
+B. How do you want to draft the API Spec: Select **Guide me through it** radio button.
+
+C. Select **Create API Spec** button.  
+  
+![](https://user-images.githubusercontent.com/84099162/164260604-8eeccb0a-c9ec-4242-bdb1-8fe3c546f8ba.png)  
+  
+6\. After clicking **Create API Spec**. This will create the basic structure of your RAML-based API specification. Note that for full RAML support, you should start with the first option (API Designer), which is the standard RAML-based API Designer.  
+![](https://lh5.googleusercontent.com/xVTUI_1JXxUdoEHWFtnrKtYLA-izBsvwK7baMQg-guArVKPFN5blmp_t9QLh-qSZphKZOFwdVoOk7AcacjF20S8PA6FAYgO8GRQ5lwcSXU2CVJUZPnrXoG1KsuhT3asH_zkm81EL7zBX)
+
+  
+**Step 3: Create the Orders List Resource**
+
+In order to provide order handling functionality for the e-commerce application, we will design a list resource in our API using RAML.
+
+**Anypoint Design Center** will provide a visual API editor to start with a step-by- step tutorial to guide you through designing your API visually.  
+  
+1.    Let’s add some general details about the API.
+
+A. Name the API by setting the title to: “**\<your name or initials>- Shopify Experience API”**.  
+B. Since this is our first design let’s set API Version to “**1.0”**  
+C.Select protocol as “**HTTP”**   
+D. Set the media type to “**application/json”**.  
+E. Most API specifications will designate an API endpoint Base URI. This tells the API consumer where they will access the API. Set the URI to **“**[**http://localhost:8081/api**”](http://localhost:8081/api)
+
+  
+You should now see the something like  following in your API design:  
+  
+![](https://user-images.githubusercontent.com/84099162/164261448-1edc032f-92e5-4b93-9446-9c7b516e46b1.png)
+
+**Step 3: Create the Orders List Resource**
+
+2.  Now you need to add a resource. A resource is the definition of an entity that your API will manage. Click the **+** to the right of **Resources**, then choose **Add resource**.
+
+![](https://user-images.githubusercontent.com/84099162/164261713-8c10d004-d5cd-4d7c-9efa-7060e41b2c0f.png)  
+ 
+
+3.  To create the order resource for the Shopify API we will need to do the follow:
+
+A. Rename the resource from **/new-resource** to **/order.**   
+B. Select the **GET** option and under summary → description, give it a description  
+C. Scroll to and select **Responses** tab below. It will have a default **200** Status (which signals successfully operation) preselected and hit **Add**  
+D. Notice the generated RAML on the right.  
+  
+![](https://user-images.githubusercontent.com/84099162/164262153-f936fa84-8d3b-4595-a566-dfed4d0ab754.png)
+
+**Step 4: Create the Order Instance Resource**
+
+In the previous step we created an Order collection resource and GET method to grab all Shopify Orders. But in most cases for NTO, information on a single order will be needed. We need to create a new resource underneath the Order instance and use the GET method.
+
+1\.   So we will do the following:
+
+A. By the **order** resource hover your mouse on the resource and you should see a trash can and “**+**” icon. Under the “**+**” icon,   
+**Nested resource** call out is visible to indicated we can nest child resource under **order**    
+  
+![](https://user-images.githubusercontent.com/84099162/164262671-c61ab3aa-5236-4f31-b301-402f0571ae9a.png)  
+ 
+
+B. Click the “+” icon and you will see that another resource, **/order/new-resource** has been added under **order**.
+
+C. Change “**/order/new-resource”** to “**/order/{id}”** in the title pane
+
+D. Scroll to and select **Responses** tab below. It will have a default **200** Status (which signals successfully operation) preselected and hit **Add**  
+  
+![](https://user-images.githubusercontent.com/84099162/164262775-5e573284-67b5-4b87-8821-516ffd9c14e4.png)
