@@ -6,14 +6,16 @@ This will be your Module Lab Guide that will walk your through the content for t
 
 DTC Workshop consists of Four (4) Modules that include the following:
 
-### [Module 0: Prerequisites](/module0.md)
+[Module 0: Prerequisites](/module0.md)
 
-### [Module 1: The Modern API - Design](/module1-overview.md)
+[Module 1: The Modern API - Design](/module1-overview.md)
 
-### [**Module 2 Ubiquitous Connectivity (Shopify)**](/module2-overview.md)
+[Module 2 Ubiquitous Connectivity (Shopify)](/module2-overview.md)
 
-### [**Module 3: Apply Policy to Shopify AP**](/module3-overview.md)
+[Module 3: Apply Policy to Shopify AP](/module3-overview.md)
 
 Each Module will consist of several Labs that can be done independently of the other Lab. 
 
-_What happens if you do not finish in the time allotted for the workshop?_ Don't worry, the workshop is meant to be self-paced and all materials will be available for several days after the workshop.
+_What happens if you do not finish in the time allotted for the workshop?_ Don't worry, the workshop is meant to be self-paced and all materials will be available for several days after the workshop.  
+  
+[\--> Proceed to Module 0](/module0.md)
