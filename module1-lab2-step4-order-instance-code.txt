@@ -1,0 +1,29 @@
+{
+     "id": 413413890297800,
+     "confirmed": true,
+     "fulfilled": false,
+     "created": "2021-12-09T09:05:34-05:00",
+     "currency": "USD",
+     "total": 75.55,
+     "customer": {
+       "id": 1616616,
+       "email": "jane@gmail.com",
+       "address1": "567 Main St",
+       "city": "Stafford",
+       "state": "VA",
+       "country": "USA",
+       "zip": "22554",
+       "phone": "555-710-9325",
+     "line_items": [
+       {
+         "id": 10417352802515,
+         "sku": "841483107332",
+         "name": "Waist Cincher - Soft Nude / L",
+         "quantity": 1,
+         "gift_card": false,
+         "price": 75.55,
+         "tax_code": "PC040100"
+       }
+     ]
+   }
+ }
