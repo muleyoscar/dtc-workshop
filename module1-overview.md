@@ -18,8 +18,8 @@ The first module of the workshop will focus on how to use **Anypoint Design Cen
 
 The 3 labs in this unit are:
 
-*   [Lab 1: Search for an API in Exchange](https://docs.google.com/presentation/d/19nDdisPdAwV1Gll4ggGqn4cCHZLAwzMN9wx-ODshCRo/edit#slide=id.g12467c2d1c8_0_45)
-*   [Lab 2: Design the Shopify API](http://workshop.tools.mulesoft.com/modules/module1_lab2)
-*   [Lab 3: Publish the Shopify API to Exchange](http://workshop.tools.mulesoft.com/modules/module1_lab3)
+*   [Lab 1: Search for an API in Exchange](/module1-lab1.md)
+*   [Lab 2: Design the Shopify API](module1-lab2.md)
+*   [Lab 3: Publish the Shopify API to Exchange](module1-lab3.md)
 
 ### [\--> Proceed with Lab 1](module1-lab1)
