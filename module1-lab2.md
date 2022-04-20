@@ -25,7 +25,7 @@ Designing REST interfaces is a bit of a paradigm change compared to SOAP service
 
 2\. [Use standard response codes](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html) for success and error; use existing patterns e.g. not every successful call should return a 200 OK - often a 201 Created is appropriate after a POST /products or a 202 Accepted when a long running task was started by the server
 
-1.  [Use standard header parameters](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html)
+3\. [Use standard header parameters](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html)
 
 4\. Design and craft resources in **your** business language - here is where [RAML](http://raml.org/) comes into play
 
