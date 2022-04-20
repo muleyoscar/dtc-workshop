@@ -115,8 +115,26 @@ Lets breakdown the components of the **Shopify API Portal** display...
 **C.  Versions** It shows the different versions of the API.  
 Much of this information is automatically generated during the design and development of the API.
 
-*   **Change Lifecycle State**: Lets you change the state of the version:  
-      
-    ![](https://lh3.googleusercontent.com/z8JVnqTc3WdYFpK8nfAY5wMK29ZgWlFP3ZqkXt4Ox247OBwaKpzBv5SqzQAM5eRMrsnePIa2s-G67-Yu90PDR46bzZPt6lKLQ6YiYLe_ADbwohjhAM-Cef40azMXJNYeiFQwdARhuC9S)
+**Change Lifecycle State**: Lets you change the state of the version:
 
-*
+![](https://lh3.googleusercontent.com/z8JVnqTc3WdYFpK8nfAY5wMK29ZgWlFP3ZqkXt4Ox247OBwaKpzBv5SqzQAM5eRMrsnePIa2s-G67-Yu90PDR46bzZPt6lKLQ6YiYLe_ADbwohjhAM-Cef40azMXJNYeiFQwdARhuC9S)
+
+D.  **Back to previous UI** allows you to toggle between our classic or newer Portal UI (defaulted at newer UI)
+
+E. **Add Version** is where you can easily upload a newer version of the Shopify API specification via RAML or OAS file upload
+
+F. **Add Tags** - _Tags_ make it easier to search and discover API’s. Rather than relying on the title or description of the API, tags allow for you to create categories of API’s related to each other by _tags_.
+
+G. **Edit Documentation** Lets you edit the documentation for your API.  
+  
+![](https://user-images.githubusercontent.com/84099162/164135910-b366f0e4-869a-4e36-927f-9173edf6338c.png)  
+  
+H.  **API Summary** - This is the API specification. API resources can be seen here. You can click on each resource and view the documentation.
+
+*   You can expand the resource endpoints (e.g. orders) to view the operations that can be performed on that endpoint (e.g. GET, POST, DELETE):  
+      
+    ![](https://lh5.googleusercontent.com/kww254HrO0K8a4nXoIVRysFZTp-Qk0QIMnE4iDU1kR_QuctNAvDw_p6wQMNMf_vcSTw9OsuCJKvak24RO4rlLIzHBdVCvR9VwihSbP1VbvZbKjeRVFN06M4XEl3YHPgHNkVc_YDMdzyi)
+
+I.   **Ratings and Reviews** - New to Exchange, API users can review and comment on an API. This enables collaboration with the API owner and the ability to share experiences using the API that might help other API consumers.  
+![](https://lh3.googleusercontent.com/BMGTeCfnbEgF7qGcg6eqI8mg6oYE1vaxWkCgh9StowI6SkDn11LElyDFIW1gNh_0tMe_VqY0EatQsQTpViB-CGCXWwUYeP4glwiNas-FMta3crG5ChHodkZg4dbC27UgP_38ig9gSgfY)  
+![](https://user-images.githubusercontent.com/84099162/164136252-842f5fea-c394-4e1d-ae16-becc518fa8d1.png)
