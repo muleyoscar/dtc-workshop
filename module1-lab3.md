@@ -1,3 +1,5 @@
+# **Module 1: Lab 3 Publish the Shopify API To Exchange**
+
 ### Overview
 
 In Lab 1 we examined how to use **Anypoint Exchange** to facilitate the API discovery process. In Lab 2 we learned how to use **Anypoint Design Center** to design the specifications for a modern RESTful API. In this lab we will learn how to publish our API to **Anypoint Exchange** so that API consumers and API developers within the organization are able to leverage the API through "self-service".
@@ -54,36 +56,35 @@ on the three dots.
 
 11\. A **Delete File** Window will appear, Click **Delete**.
 
-![](https://user-images.githubusercontent.com/84099162/164290213-e6c77513-fe6e-4f10-ae0b-9a6b33003c62.png)  
-  
+![](https://user-images.githubusercontent.com/84099162/164290213-e6c77513-fe6e-4f10-ae0b-9a6b33003c62.png)
+
  12. You should see the following complete API specification with only the  **shopify-experience-api.raml** in the left pane:
 
 ![](https://user-images.githubusercontent.com/84099162/164290421-1c97c8a4-05bb-469a-9213-09c7528c625e.png)
 
 **Step 2: Publish Your API to Anypoint Exchange**
 
-1.  Click on the **Publish** button and then on the **Publish to Exchange** button:  
-      
-    ![](https://user-images.githubusercontent.com/84099162/164290687-a8179c7c-9915-404c-ba79-2a13b8716523.png)  
-     
-2.  A popup window to capture the attributes that you want to publish to Exchange will appear. Most of these fields will be pre-populated and the RAML will be verified to ensure that there are no errors. Complete the **Asset version** field with “**1.0.0.”**  
-      
-    **![](https://user-images.githubusercontent.com/84099162/164290850-ad0bb78c-53cd-4eab-9fde-28018675c120.png)**
-3.  Click the "Publish to Exchange" button when you have finished reviewing the API name and version information. We have now published our Shopify Experience API to **Anypoint Exchange** for other developers to discover and consume!  
-      
-    ![](https://user-images.githubusercontent.com/84099162/164290972-e7a6ab7c-afac-497f-b653-ded7ce71236e.png)  
-      
-    Each time you publish an API Specification you will generate two assets:
+Click on the **Publish** button and then on the **Publish to Exchange** button:
+
+![](https://user-images.githubusercontent.com/84099162/164290687-a8179c7c-9915-404c-ba79-2a13b8716523.png)  
+
+A popup window to capture the attributes that you want to publish to Exchange will appear. Most of these fields will be pre-populated and the RAML will be verified to ensure that there are no errors. Complete the **Asset version** field with “**1.0.0.”**
+
+**![](https://user-images.githubusercontent.com/84099162/164290850-ad0bb78c-53cd-4eab-9fde-28018675c120.png)**
+
+Click the "Publish to Exchange" button when you have finished reviewing the API name and version information. We have now published our Shopify Experience API to **Anypoint Exchange** for other developers to discover and consume!
+
+![](https://user-images.githubusercontent.com/84099162/164290972-e7a6ab7c-afac-497f-b653-ded7ce71236e.png)
+
+Each time you publish an API Specification you will generate two assets:
 
 *   RAML Spec: This is the RAML Specification. Everybody on the organization can discover the spec and documentation.
-*   Rest Connector: This is a connector automatically generated for the API you have just defined. We will cover this in more details on Module 2 and Module 9.  
-     
+*   Rest Connector: This is a connector automatically generated for the API you have just defined. We will cover this in more details on Module 2 and Module 9.  
 
 **Step 3: Augment the Documentation for Your API**
 
 As demonstrated in Step 2, publishing your API to exchange is as easy as a few clicks. However, Exchange has really only just captured the basic attributes and documentation for your API at this point. Ensuring that your API is easy to find and "self-service ready" is your responsibility as an API designer. Let’s find our API in Exchange and add more to our API documentation.
 
-  
 1a.     After you click the **Publish to Exchange** the **Shopify Experience API** Specification will start loading into **Exchange**. Once loaded there will be a pop window letting you know that your **Shopify Experience API** is in **Exchange**. To go to the API specification you can simply click on the **“Exchange”** link in the window. 
 
 ![](https://user-images.githubusercontent.com/84099162/164291282-6f7b6aba-7cb7-4fa1-9031-afd4c766d7cf.png)
@@ -94,8 +95,8 @@ As demonstrated in Step 2, publishing your API to exchange is as easy as a few c
 
 You can then quickly search for the **“\<your name or initial>-Shopify Experience API”** in **Exchange** as we did [**Lab 1**](/module1-lab1.md) of this **Module.**
 
-2.  Once you are in the **\<your name or initial>-Shopify Experience API** you should see something that looks like this:  
-  
+2.  Once you are in the **\<your name or initial>-Shopify Experience API** you should see something that looks like this:
+
 ![](https://user-images.githubusercontent.com/84099162/164291674-a17b3689-0f3e-4e62-b6b8-7d514c9d5e72.png)
 
 3\. Let’s start adding some content to the API by click on the **Edit documentation** icon
@@ -106,7 +107,7 @@ You can then quickly search for the **“\<your name or initial>-Shopify Experi
 
 Create your own documentation for your API, or copy the following text into the editor:
 
-> Welcome to the \*\*NTO developer portal\*\*. This API represents the Direct to Consumer Shopify Shopping Cart Application - that includes: 
+> Welcome to the \*\*NTO developer portal\*\*. This API represents the Direct to Consumer Shopify Shopping Cart Application - that includes:
 > 
 > \-order 
 > 
@@ -116,17 +117,15 @@ Create your own documentation for your API, or copy the following text into the 
 > 
 > The \*\*Shopify API is an Experience API\*\* that is a part of NTO's API led Architecture . This same architecture allows NTO to leverage a \*\*headless commerce\*\* platform that is \*\*highly composable\*\* and \*\*future proof!\*\*
 
-  
 4b.  **Alternatively**, if you are more comfortable with WYSIWYG editing you can click on the Visual button and copy an paste the following into the editor body:
 
-> Welcome to the **NTO developer portal.** This API represents the Direct to Consumer Shopify Shopping Cart Application - that includes: 
+> Welcome to the **NTO developer portal.** This API represents the Direct to Consumer Shopify Shopping Cart Application - that includes:
 > 
 > *   Order
 > *   Product
 > *   inventory tracking
 > 
-> The **Shopify API is an Experience API** that is a part of NTO's API led Architecture . This same architecture allows NTO to leverage a **headless commerce** platform that is **highly composable** and **future proof!**  
->  
+> The **Shopify API is an Experience API** that is a part of NTO's API led Architecture . This same architecture allows NTO to leverage a **headless commerce** platform that is **highly composable** and **future proof!**  
 
 5.  Click on the **"Save"** button at bottom of screen. Your draft of the API documentation is saved but not published until you formally **"Publish"** the final updates to Exchange, so feel free to save multiple drafts as you create your documentation.
 
