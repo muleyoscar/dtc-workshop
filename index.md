@@ -10,9 +10,9 @@ DTC Workshop consists of Four (4) Modules that include the following:
 
 #### [Module 1: The Modern API - Design](/module1-overview.md)
 
-**Module 2 Ubiquitous Connectivity (Shopify)**
+[**Module 2 Ubiquitous Connectivity (Shopify)**](/module2-overview.md)
 
-**Module 3: Apply Policy to Shopify AP**
+[**Module 3: Apply Policy to Shopify AP**](/module3-overview.md)
 
 Each Module will consist of several Labs that can be done independently of the other Lab. 
 
