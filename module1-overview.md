@@ -1,6 +1,6 @@
 # Module 1: The Modern API - Design: Overview
 
-### Overview
+### Briefing
 
 To get started with the workshop, let’s take a look at how to discover, design, and publish an API specification using the **Anypoint Platform**. Mulesoft advocates for users to adopt a "design first" approach to creating API’s. A "design first" approach is used to enable API consumers the ability to understand, interact, and solicit feedback on the proposed API contract prior to the development effort.
 
