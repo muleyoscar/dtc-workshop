@@ -87,6 +87,7 @@ You have a new requirement for a new Shopify application. The NTO business team 
 In this step, you will create an API and design it using the Anypoint Design Center.
 
 You can access Anypoint Design Center from the home page of Anypoint Platform:  
+  
 ![](https://lh3.googleusercontent.com/hBN4M9KRxi6THRda--9L2B6_YIziyLSbU-gEhIblCYf1TNlWdElsYZO7xbzU9WlL3XWCJKxeopCTicIt9pQrzdfFWFsZLkyxFsiybWFPN2xk7X4hLMdOhWjl85hlSs_EqhgJyOyU7Jnt)  
 
 Alternatively you can use the "hamburger menu" from any page within Anypoint Platform portal to navigate to Design Center:
@@ -120,6 +121,7 @@ C. Select **Create API Spec** button.
 ![](https://user-images.githubusercontent.com/84099162/164260604-8eeccb0a-c9ec-4242-bdb1-8fe3c546f8ba.png)
 
 6\. After clicking **Create API Spec**. This will create the basic structure of your RAML-based API specification. Note that for full RAML support, you should start with the first option (API Designer), which is the standard RAML-based API Designer.  
+  
 ![](https://lh5.googleusercontent.com/xVTUI_1JXxUdoEHWFtnrKtYLA-izBsvwK7baMQg-guArVKPFN5blmp_t9QLh-qSZphKZOFwdVoOk7AcacjF20S8PA6FAYgO8GRQ5lwcSXU2CVJUZPnrXoG1KsuhT3asH_zkm81EL7zBX)
 
 **Step 3: Create the Orders List Resource**
@@ -161,38 +163,36 @@ In the previous step we created an Order collection resource and GET method to g
 
 1\.   So we will do the following:
 
-A. By the **order** resource hover your mouse on the resource and you should see a trash can and “\*\*+**” icon. Under the “**+**” icon,**   
+A. By the **order** resource hover your mouse on the resource and you should see a trash can and “\*\*+**” icon. Under the “**+**” icon,**  
 **\*\*Nested resource** call out is visible to indicated we can nest child resource under **order**  
 
 ![](https://user-images.githubusercontent.com/84099162/164262671-c61ab3aa-5236-4f31-b301-402f0571ae9a.png)  
 
 B. Click the “+” icon and you will see that another resource, **/order/new-resource** has been added under **order**.
 
-C. Change “**/order/new-resource**” to “**/order/{id}**” in the title pane
+C. Change “\*\*/order/new-resource**” to “**/order/{id}\*\*” in the title pane
 
 D. Scroll to and select **Responses** tab below. It will have a default **200** Status (which signals successfully operation) preselected and hit **Add**
 
 ![](https://user-images.githubusercontent.com/84099162/164263784-0afa37a0-a77e-4871-9a1a-db87c9100c3f.png)
 
-  
 2\. Now let’s add a specific body to the 200 response for **order/{id}** instance.
 
 A. Select **Add Body**
 
 ![](https://user-images.githubusercontent.com/84099162/164263269-4794bbd1-fce4-40be-a7e6-6838589ab368.png)
 
-B. Keep **application/json** as the Media Type and hover to the arrow icon at the right to expand options.  
-  
-![](https://user-images.githubusercontent.com/84099162/164264271-d0bb6e76-e050-4f4c-b837-af4260ce745d.png)  
-  
-C. Once expanded it should look like this:  
-  
+B. Keep **application/json** as the Media Type and hover to the arrow icon at the right to expand options.
+
+![](https://user-images.githubusercontent.com/84099162/164264271-d0bb6e76-e050-4f4c-b837-af4260ce745d.png)
+
+C. Once expanded it should look like this:
+
 ![](https://user-images.githubusercontent.com/84099162/164264427-17f4df98-ccb4-4016-8394-d400396c6bb3.png)  
-3\. Click **Edit** 
+3\. Click **Edit**
 
 4.  Now let’s copy and paste the following code into the body:
 
->   
 > {
 > 
 >      "id": 413413890297800,
@@ -249,8 +249,7 @@ C. Once expanded it should look like this:
 > 
 >    }
 > 
->  }  
->  
+>  }  
 
 ![](https://user-images.githubusercontent.com/84099162/164264685-821f6b79-bf2d-461a-8f3d-3bab14ddf695.png)
 
@@ -260,12 +259,12 @@ A very useful feature during the design phase is having the ability for your con
 
 First we are going to enable the mocking service for internal use.
 
-Click the **Circular Arrow** icon in the right-hand toolbar it should expand the pane like so:  
-  
-![](https://user-images.githubusercontent.com/84099162/164265600-6392cad0-fdc7-4f54-a833-a17cd79f2e6c.png)  
-  
-**\*\*\*If you see an empty pane check to make sure the order/{id} resource is highlighted in the left pane like so:**  
-  
+Click the **Circular Arrow** icon in the right-hand toolbar it should expand the pane like so:
+
+![](https://user-images.githubusercontent.com/84099162/164265600-6392cad0-fdc7-4f54-a833-a17cd79f2e6c.png)
+
+**\*\*\*If you see an empty pane check to make sure the order/{id} resource is highlighted in the left pane like so:**
+
 ![](https://lh5.googleusercontent.com/eEItqnwB0Z8qBMniPfP6akWYwXdsIMKaQ90QgBycH3dn4ZNG2yBNvRNDGB8uaEjejLKZiM8XE91rvJacaBJkSNQPnjV1IEFWDaXieKxRYwkr7CVX57gGVnzpXLzq_dOYwDMer5MZ4oh7)
 
 2\.   From **Select Server** dropdown change the selection from [**http://localhost:8081/api**](http://localhost:8081/api) to **Mocking Service**
@@ -280,8 +279,7 @@ Use the mocking service and check the examples is updated too.
 
 The API design is ready. In the next lab we are going to publish the API so it can be discoverable by anybody in the organization.
 
-![](https://lh3.googleusercontent.com/tBG1DAe6hVgZiuX6UG8pT8T-QAeLsRowiMcG8mTbHqc1t7AWL3ZX1sC15_opcStbV0EdSfQ88w0iZcN598Bu2LbscLDEACACOweAUePclQQMsfxfMi0TGFLa_3XMKiZhBLa8_WtOp26k)  
- 
+![](https://lh3.googleusercontent.com/tBG1DAe6hVgZiuX6UG8pT8T-QAeLsRowiMcG8mTbHqc1t7AWL3ZX1sC15_opcStbV0EdSfQ88w0iZcN598Bu2LbscLDEACACOweAUePclQQMsfxfMi0TGFLa_3XMKiZhBLa8_WtOp26k)  
 
 **Summary**
 
@@ -295,8 +293,7 @@ In this lab, you completed the following steps:
 
 We easily designed the framework for our Shopify API, providing the ability to get orders and check single order. We leveraged RAML for a **design first approach**.
 
-We saw how the mock service can be utilized to provide application developers an API mock up they can build their applications on. This significantly **speeds up end to end development**.  
- 
+We saw how the mock service can be utilized to provide application developers an API mock up they can build their applications on. This significantly **speeds up end to end development**.  
 
 To learn more about RAML follow this [tutorial](http://raml.org/docs.html).
 
