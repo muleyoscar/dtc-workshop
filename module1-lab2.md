@@ -1,6 +1,6 @@
 ### Module 1: The Modern API - Design: Lab 2 
 
-Overview
+### **Overview**
 
 In the first lab of this module we learned how to discover the Shopify Experience API published in Anypoint Exchange. But of course, somebody had to design this API in the first place. For the purposes of this exercise, let’s ignore the fact that the Shopify Experience API already exists. Instead, let’s take on the role of the API designer and explore how to design the experience API using a **Design First** approach with MuleSoft’s API-led Connectivity methodology. The goal of our _Design First_ approach is to be able to design APIs that are easy to use for their intended target audience.
 
@@ -86,8 +86,8 @@ You have a new requirement for a new Shopify application. The NTO business team 
 
 In this step, you will create an API and design it using the Anypoint Design Center.
 
-You can access Anypoint Design Center from the home page of Anypoint Platform:  
-  
+You can access Anypoint Design Center from the home page of Anypoint Platform:
+
 ![](https://lh3.googleusercontent.com/hBN4M9KRxi6THRda--9L2B6_YIziyLSbU-gEhIblCYf1TNlWdElsYZO7xbzU9WlL3XWCJKxeopCTicIt9pQrzdfFWFsZLkyxFsiybWFPN2xk7X4hLMdOhWjl85hlSs_EqhgJyOyU7Jnt)  
 
 Alternatively you can use the "hamburger menu" from any page within Anypoint Platform portal to navigate to Design Center:
@@ -120,8 +120,8 @@ C. Select **Create API Spec** button.
 
 ![](https://user-images.githubusercontent.com/84099162/164260604-8eeccb0a-c9ec-4242-bdb1-8fe3c546f8ba.png)
 
-6\. After clicking **Create API Spec**. This will create the basic structure of your RAML-based API specification. Note that for full RAML support, you should start with the first option (API Designer), which is the standard RAML-based API Designer.  
-  
+6\. After clicking **Create API Spec**. This will create the basic structure of your RAML-based API specification. Note that for full RAML support, you should start with the first option (API Designer), which is the standard RAML-based API Designer.
+
 ![](https://lh5.googleusercontent.com/xVTUI_1JXxUdoEHWFtnrKtYLA-izBsvwK7baMQg-guArVKPFN5blmp_t9QLh-qSZphKZOFwdVoOk7AcacjF20S8PA6FAYgO8GRQ5lwcSXU2CVJUZPnrXoG1KsuhT3asH_zkm81EL7zBX)
 
 **Step 3: Create the Orders List Resource**
@@ -281,7 +281,7 @@ The API design is ready. In the next lab we are going to publish the API so it c
 
 ![](https://lh3.googleusercontent.com/tBG1DAe6hVgZiuX6UG8pT8T-QAeLsRowiMcG8mTbHqc1t7AWL3ZX1sC15_opcStbV0EdSfQ88w0iZcN598Bu2LbscLDEACACOweAUePclQQMsfxfMi0TGFLa_3XMKiZhBLa8_WtOp26k)  
 
-**Summary**
+### **Summary**
 
 In this lab, you completed the following steps:
 
