@@ -1,4 +1,6 @@
-### Briefing
+# Module 2: Ubiquitous Connectivity: Overview  
+  
+Briefing
 
 You have completed the design of the Shopify API and now you are ready to implement it. In this module, we will create the implementation of our API that will process the REST requests.
 
