@@ -285,11 +285,11 @@ The API design is ready. In the next lab we are going to publish the API so it c
 
 In this lab, you completed the following steps:
 
-*   [Step 1: Review the Shopify Requirements](http://workshop.tools.mulesoft.com/modules/module1_lab2#step-1-review-the-e-commerce-application-requirements)
-*   [Step 2: Create the Shopify Experience API](http://workshop.tools.mulesoft.com/modules/module1_lab2#step-2-create-the-omni-channel-experience-api)
-*   [Step 3: Create the Orders List Resource](http://workshop.tools.mulesoft.com/modules/module1_lab2#step-3-create-the-orders-list-resource)
-*   [Step 4: Create the Order Instance Resource](http://workshop.tools.mulesoft.com/modules/module1_lab2#step-4-create-the-order-instance-resource)
-*   [Step 5: Use the Mocking Servic](http://workshop.tools.mulesoft.com/modules/module1_lab2#Step%207:%20Use%20the%20Mocking%20Service)e
+*   Step 1: Review the Shopify Requirements
+*   Step 2: Create the Shopify Experience API
+*   Step 3: Create the Orders List Resource
+*   Step 4: Create the Order Instance Resource
+*   Step 5: Use the Mocking Service
 
 We easily designed the framework for our Shopify API, providing the ability to get orders and check single order. We leveraged RAML for a **design first approach**.
 
