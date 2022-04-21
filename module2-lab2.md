@@ -157,24 +157,23 @@ In order to test the API we will need to run our project on our local machine. 
 
 **![](https://user-images.githubusercontent.com/84099162/164317965-956c272b-e48c-4443-be91-47cf43d59c51.png)**
 
-While we wait for the project to run let’s add our own Shopify order date in the **NTO Shopify Site**!  
-  
+While we wait for the project to run let’s add our own Shopify order date in the **NTO Shopify Site**!
+
 1\. Go to [https://nto-demo.com/](https://nto-demo.com/)
 
-2\. Let’s buy the “**Hiking boots”,** by selecting that item.  
-  
-![](https://user-images.githubusercontent.com/84099162/164334459-73aac321-0ea3-487d-839d-f8333cb7e232.png)  
- 
+2\. Let’s buy the “**Hiking boots”,** by selecting that item.
 
-**Step 7: Testing the Shopify API Create Order**  
-  
-1\. Click **Buy It Now**  
-  
-![](https://user-images.githubusercontent.com/84099162/164334836-36f2ee8c-6e60-4d53-bcfc-3959e1ac3960.png)  
-  
+![](https://user-images.githubusercontent.com/84099162/164334459-73aac321-0ea3-487d-839d-f8333cb7e232.png)  
+
+**Step 7: Testing the Shopify API Create Order**
+
+1\. Click **Buy It Now**
+
+![](https://user-images.githubusercontent.com/84099162/164334836-36f2ee8c-6e60-4d53-bcfc-3959e1ac3960.png)
+
 2\. Add some fake contact details like so and Click **Continue to Shipping**.   
 **Keep record of the fake email you used it will come in handy in subsequent steps.**  
-**DO NOT USE YOURS OR ANYONE’S PERSONAL INFORMATION!!! MAKE SOMETHING UP.** 
+**DO NOT USE YOURS OR ANYONE’S PERSONAL INFORMATION!!! MAKE SOMETHING UP.**
 
 ![](https://user-images.githubusercontent.com/84099162/164335007-1e3c9a37-cb5d-4c67-a24f-03d38e19ddd2.png)
 
@@ -183,35 +182,32 @@ While we wait for the project to run let’s add our own Shopify order date in t
 
 ![](https://user-images.githubusercontent.com/84099162/164335114-ebe98e4a-1fed-4f2e-b346-9193114afe57.png)
 
-You should see an Order Confirmation. Close out of [https://nto-demo.com/](https://nto-demo.com/).   
-  
+You should see an Order Confirmation. Close out of [https://nto-demo.com/](https://nto-demo.com/). 
+
 ![](https://user-images.githubusercontent.com/84099162/164335182-ed52a88c-bda4-495f-9e5e-7c485a2cdecd.png)
 
 7\. Switch back to **Anypoint Studio** and by now your project should be in a **DEPLOYED** status  
 8\. Click on **Open console** in the left lower pane labeled  
-**API Consoles**  
-  
+**API Consoles**
+
 **![](https://user-images.githubusercontent.com/84099162/164335255-da8cbfa4-e7a5-4535-a066-03a71523a4f8.png)**
 
-  
-9\. A Web Browser tab will get launch to show the **API Console** Web UI. Click **/order GET** button to test our flow out.  
-  
+9\. A Web Browser tab will get launch to show the **API Console** Web UI. Click **/order GET** button to test our flow out.
+
 ![](https://lh5.googleusercontent.com/2Jhb5HAu7y9D9KEkJuJHkGUS3yAkrY9BK-VZokgvapdXeqQRS6Xlm3NqpjM6yS2gEvqmyL-ZP2Fx29FZtsuSTkr2tXg6WMZeRBoxSDw007I-gEFnNP8PK54R7fAOkbcFrjWLfs7c-f8O)
 
-10\. You will be taken to a view for the **GET /order** resource endpoint. Click the send button **Send**.  
- 
+10\. You will be taken to a view for the **GET /order** resource endpoint. Click the send button **Send**.  
 
 ![](https://user-images.githubusercontent.com/84099162/164335437-10fdf949-e82d-4d18-9245-9bd7291aa9bb.png)
 
 11\. Response will show in the lower right pane.with a large payload of an array of orders. 
 
-12.  Do a **MAC: Command + F**, **PC: Ctrl +F**, and search for the fake email you used for your order.  
-  
-![](https://user-images.githubusercontent.com/84099162/164335551-e820aca7-b213-4c8b-ac1e-96b709071f12.png)  
-  
+12.  Do a **MAC: Command + F**, **PC: Ctrl +F**, and search for the fake email you used for your order.
+
+![](https://user-images.githubusercontent.com/84099162/164335551-e820aca7-b213-4c8b-ac1e-96b709071f12.png)
+
 The Shopify response is a very comprehensive payload take a look at the structure. **In future Lab updates we will show you how to make this payload tailored and more readable.**
 
 Great work! We successfully tested our Implementation now let's deploy it.
 
-###   
-[\--> Proceed to Lab 3](/module2-lab3.md)
+### [\--> Proceed to Lab 3](/module2-lab3.md)
